@@ -1,0 +1,101 @@
+ bai tap 
+ 140  cd downloads
+  141  git clonehttps://github.com/kddung25174600176-hub/12_Kieu_Dang_Dung_bai_tap.git
+  142  cd 12_Kieu_Dang_Dung_bai_tap
+  143  git clone https://github.com/kddung25174600176-hub/12_Kieu_Dang_Dung_bai_tap.git
+  144  git clone https://github.com/kddung25174600176-hub/12_Kieu_Dang_Dung_bai_tap.git
+  145  git add .
+  146  git commit -m "chỉnh sửa nội dung file README.md "
+  147  git push origin main
+  148  git branch
+  149  git checkout -b branch_1
+  150  echo "Lorem ipsum dolor sit amet , consectertur adipiscing elit" > text_branch_1.txt
+  151  git add .
+  152  git commit -m " Thêm file test_branch_1
+"
+  153  git push origin branch_1
+  154  git checkout main
+  155  git checkout -b branch_2
+  156  echo "Praesent ullamcorper orci eu erat placerat sodales" > test_branch_2.txt
+  157  git add .
+  158  git commit -m " Thêm file test_branch_2.txt cho branch_2 "
+  159  git push origin branch_2
+  160  git checkout main
+  161  git checkout -b branch_3
+  162  echo "Integer sit amet nisi aliquam, tempor libero quis, cursus erat." > text_branch_3.txt
+  163  git add .
+  164  git commit -m "Thêm file text_branch3.txt cho branch_3"
+  165  git push origin branch_3
+  166  git checkout main
+  167  git checkout -b branch_4
+  168  echo " Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  169  git add.
+  170  git commit -m " Thêm file text_branch_4.txt cho branch_4"
+  171  git add .
+  172  git commit -m " Thêm file text_branch4.txt cho branch_4 "
+  173  git push gorigin branch_4
+  174  git push origin branch_4
+  175  git checkout main
+  176  git branch -d branch_4
+  177  git branch
+  178  git branch -D branch_4
+  179  git branch
+  180  git pull
+  181  git checkout main
+  182  mkdir main_folder
+  183  cd main_folder
+  184  echo " nd file 1 " > main_txt_1.txt
+  185  echo " nd file 2 " > main_txt_2.txt
+  186  echo " nd file 3 " > main_txt_3.txt
+  187  cd ..
+  188  git add .
+  189  git  commit -m " Them thư mục main_folder với 3 file txt "
+  190  git push origin main
+  191  git checkout branch_1
+  192  git  check out -b branch_5
+  193  git checkout -b branch_5
+  194  git add text_branch_1.txt
+  195  git commit -m "chinh sua noi dung file text_branch_1.txt theo yeu cau bai 7 "
+  196  git push origin branch_5
+  197  git branch
+  198  git add text_branch_1.txt
+  199  git commit -m " chinh sua nd file text_branch_1.txt "
+  200  git push origin branch_5
+  201  git status
+  202  ls
+  203  git status
+  204  notepad text_branch_1.txt
+  205  got
+  206  upt
+  207  ls
+  208  "
+"Q
+  209  Git status
+  210  git add text_branch_1.txt
+  211  git commit -m " cap nhat nd file text_branch_1.txt theo bài 7 "
+  212  git push origin branch_5
+  213  git branch -d branch_5
+  214  git branch -D branch_5
+  215  git checkout branch_1
+  216  git branch -D branch_5
+  217  git checkout main
+  218  git branch -d branch_2
+  219  git branch -D branch_2
+  220  git branch -D branch_3
+  221  git branch -D branch_4
+  222  git push origin --delete branch_2
+  223  git push origin --delete branch_3
+  224  git push origin --delete branch_4
+  225  git pull origin main
+  226  git checkout branch_1
+  227  git marge main
+  228  git push origin branch_1
+  229  git push origin branch_1 --rebase
+  230  git push origin branch_1
+  231  git  pull origin branch_1 --rabase
+  232  git push origin branch_1 --rebase
+  233  git push origin branch_1
+  234  git pull origin branch_1 --rebase
+  235  git push origin branch_1
+  236  git checkout main
+  237  echo " bai tap " > 12_Kieu_Dang_Dung_doan_ma.txt
